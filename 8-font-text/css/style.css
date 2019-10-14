@@ -1,0 +1,59 @@
+.serif1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.serif2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sansserif {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sansserif2 {
+    font-family: arial;
+}
+
+.longcang {
+    font-family: long cang;
+}
+
+.lobster {
+    font-family: lobster;
+}
+
+body {
+    background-color: #b5c678;
+    font-size: 1.3rem;
+}
+
+article {
+    background-color: #0c374d;
+    margin: T:2rem R:10% B:2rem L:10%;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #ffffff;
+}
+header {
+    color: #0c374d;
+    text-align: center;
+}
+
+h2 {
+    letter-spacing: .3rem;
+}
+article p:first-letter {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a.sup:hover {
+    color: red;
+    font-size: 1rem;
+
+}
+a.footer:hover {
+    color: grey;
+}
